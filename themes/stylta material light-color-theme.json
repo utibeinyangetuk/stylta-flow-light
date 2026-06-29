@@ -177,12 +177,12 @@
 
 		// Git
 		"gitDecoration.addedResourceForeground": "#83C654",
-		"gitDecoration.modifiedResourceForeground": "#FD971F",
+		"gitDecoration.modifiedResourceForeground": "#EF6C00",
 		"gitDecoration.conflictingResourceForeground": "#b16286",
 		"gitDecoration.stageModifiedResourceForeground": "#d73bd5",
 		"gitDecoration.deletedResourceForeground": "#C9302C",
 		"gitDecoration.stageDeletedResourceForeground": "#CD6069",
-		"gitDecoration.untrackedResourceForeground": "#0582a8",
+		"gitDecoration.untrackedResourceForeground": "#2962FF",
 		"gitDecoration.ignoredResourceForeground": "#d3cfc9d3",
 		"gitlens.trailingLineBackgroundColor": "#E3E6ED00",
 		"gitDecoration.submoduleResourceForeground": "#F183DA",
@@ -410,8 +410,8 @@
 			"name": "comment",
 			"scope": "comment,comment markup.link,punctuation.definition.comment,markup.quote.markdown,meta.preprocessor.glsl,",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#a19a9281"
+				"fontStyle": "italic",
+				"foreground": "#9AA1A9"
 			}
 		},
 		{
