@@ -1,11 +1,11 @@
 {
-	"name": "stylta-material-light",
-	"displayName": "stylta material light",
-	"description": "A light theme that really gives you that material feel.",
-	"version": "0.3.0",
+	"name": "stylta-flow",
+	"displayName": "Stylta Flow",
+	"description": "A clean, modern light theme designed for clarity, consistency, and long coding sessions. Features refined semantic highlighting and excellent support for JavaScript, TypeScript, React, CSS, JSON, Python, and more.",
+	"version": "0.4.0",
 	"publisher": "utibeinyangetuk",
 	"engines": {
-		"vscode": "^0.10.5"
+		"vscode": "^1.70.0"
 	},
 	"repository": {
 		"type": "git",
@@ -14,22 +14,18 @@
 	"keywords": [
 		"theme",
 		"light theme",
-		"dark theme",
-		"brown theme",
-		"minimalist",
-		"flat theme",
-		"material theme",
-		"material light",
-		"material",
+		"clean theme",
+		"minimal",
+		"modern",
 		"flat",
-		"light",
-		"warm",
-		"light theme",
-		"stylta material light",
-		"dark theme",
-		"night theme",
 		"stylta",
-		"material"
+		"syntax highlighting",
+		"javascript",
+		"typescript",
+		"react",
+		"css",
+		"json",
+		"python"
 	],
 	"categories": [
 		"Themes"
@@ -37,9 +33,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "stylta material light",
+				"label": "Stylta Nova Light",
 				"uiTheme": "vs",
-				"path": "./themes/stylta material light-color-theme.json"
+				"path": "./themes/stylta-nova-light-color-theme.json"
 			}
 		]
 	}
