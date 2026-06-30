@@ -464,13 +464,6 @@
 			}
 		},
 		{
-			"scope": ["invalid"],
-			"settings": {
-				"foreground": "#FFFFFF",
-				"fontStyle": "italic"
-			}
-		},
-		{
 			"scope": ["meta.object-literal.key", "support.type.property-name"],
 			"settings": {
 				"foreground": "#6B7280"
