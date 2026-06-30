@@ -4,6 +4,11 @@
 	"description": "A clean, modern light theme designed for clarity, consistency, and long coding sessions. Features refined semantic highlighting and excellent support for JavaScript, TypeScript, React, CSS, JSON, Python, and more.",
 	"version": "0.4.1",
 	"publisher": "utibeinyangetuk",
+	"icon": "images/logo.png",
+	"galleryBanner": {
+		"color": "#2563EB",
+		"theme": "light"
+	},
 	"engines": {
 		"vscode": "^1.70.0"
 	},
