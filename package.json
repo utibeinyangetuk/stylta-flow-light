@@ -1,10 +1,10 @@
 {
-	"name": "stylta-material-light",
-	"displayName": "Stylta Flow",
-	"description": "A clean, modern light theme designed for clarity, consistency, and long coding sessions. Features refined semantic highlighting and excellent support for JavaScript, TypeScript, React, CSS, JSON, Python, and more.",
-	"version": "0.4.3",
+	"name": "stylta-flow-light",
+	"displayName": "Stylta Flow Light",
+	"description": "",
 	"publisher": "utibeinyangetuk",
-	"icon": "images/logo.png",
+	"icon": "images/stylta-flow.png",
+	"version": "0.4.3",
 	"galleryBanner": {
 		"color": "#2563EB",
 		"theme": "light"
@@ -12,35 +12,36 @@
 	"engines": {
 		"vscode": "^1.70.0"
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/utibeinyangetuk/stylta-material-light"
-	},
-	"keywords": [
-		"theme",
-		"light theme",
-		"clean theme",
-		"minimal",
-		"modern",
-		"flat",
-		"stylta",
-		"syntax highlighting",
-		"javascript",
-		"typescript",
-		"react",
-		"css",
-		"json",
-		"python"
-	],
 	"categories": [
 		"Themes"
 	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "tsx watch src/build-theme.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/utibeinyangetuk/stylta-flow-light"
+	},
+	"keywords": [],
+	"author": "utibe inyangetuk",
+	"license": "ISC",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/utibeinyangetuk/stylta-flow-light/issues"
+	},
+	"homepage": "https://github.com/utibeinyangetuk/stylta-flow-light#readme",
+	"devDependencies": {
+		"@types/node": "^26.1.0",
+		"tsx": "^4.22.4",
+		"typescript": "^6.0.3"
+	},
 	"contributes": {
 		"themes": [
 			{
-				"label": "Stylta Flow",
+				"label": "Stylta Flow Light",
 				"uiTheme": "vs",
-				"path": "./themes/Stylta Flow.json"
+				"path": "./themes/Stylta-Flow-Light.json"
 			}
 		]
 	}
