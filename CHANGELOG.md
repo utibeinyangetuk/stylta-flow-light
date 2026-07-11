@@ -2,7 +2,34 @@
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [0.4.1] - 2026-06-30
+##
+
+## [v0.4.4] What's New (Patch Release) 2026-july-11
+
+### ✨ Added
+
+- Added **Stylta Flow Light** theme.
+- Introduced a complete light-mode workbench experience.
+- Added semantic highlighting support for the light theme.
+- Added matching Git, terminal, minimap, and diff editor colors for light mode.
+
+### ✨ Improvements
+
+- Refined editor selections and highlight colors.
+- Improved bracket pair colorization.
+- Enhanced peek view, notifications, quick input, and command palette styling.
+- Improved diagnostics colors for errors, warnings, info, and success states.
+- Refined scrollbar, sticky scroll, and editor gutter appearance.
+- Improved contrast and readability across supported languages.
+
+### 🛠 Fixed
+
+- Fixed missing theme registration for light mode.
+- Fixed color inconsistencies across workbench components.
+- Fixed semantic token mappings for several language scopes.
+
+##
+## [0.4.3] - 2026-06-30
 
 ### ✨ Added
 - Full semantic highlighting system for improved cross-language accuracy
