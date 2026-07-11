@@ -4,7 +4,7 @@
 	"description": "Stylta Flow is a meticulously crafted VS Code theme suite featuring a premium true-black dark theme and a refined light theme. Designed around semantic color consistency, modern workbench styling, and excellent readability for long coding sessions.",
 	"publisher": "utibeinyangetuk",
 	"icon": "images/logo.png",
-	"version": "0.4.4",
+	"version": "0.4.5",
 	"galleryBanner": {
 		"color": "#2563EB",
 		"theme": "light"
