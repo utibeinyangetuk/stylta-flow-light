@@ -242,7 +242,7 @@
     "listFilterWidget.noMatchesOutline": "#DC2626",
     "list.invalidItemForeground": "#9CA3AF",
     "list.warningForeground": "#D97706",
-    "editorGroup.border": "#00000000",
+    "editorGroup.border": "#E5E7EB",
     "editorGroup.dropBackground": "#DBEAFE",
     "editorGroupHeader.tabsBorder": "#E5E7EB",
     "badge.background": "#2563EB",
@@ -256,6 +256,7 @@
     "notifications.foreground": "#4B5563",
     "notificationToast.border": "#D8DEE9",
     "notificationLink.foreground": "#2563EB",
+    "notifications.border": "#D8DEE9",
     "button.hoverBackground": "#1D4ED8",
     "button.foreground": "#FFFFFF",
     "button.secondaryBackground": "#F3F4F6",
@@ -704,7 +705,7 @@
       ],
       "settings": {
         "foreground": "#0891B2",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -801,7 +802,7 @@
       ],
       "settings": {
         "foreground": "#2563EB",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -841,7 +842,7 @@
       ],
       "settings": {
         "foreground": "#D97706",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -853,7 +854,7 @@
       ],
       "settings": {
         "foreground": "#0891B2",
-        "fontStyle": "bold"
+        "fontStyle": "italic"
       }
     },
     {
@@ -886,7 +887,7 @@
       ],
       "settings": {
         "foreground": "#EA580C",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -922,7 +923,7 @@
       ],
       "settings": {
         "foreground": "#EA580C",
-        "fontStyle": ""
+        "fontStyle": "bold"
       }
     },
     {
@@ -993,7 +994,7 @@
       ],
       "settings": {
         "foreground": "#6B7280",
-        "fontStyle": "bold"
+        "fontStyle": "italic"
       }
     },
     {
@@ -1014,7 +1015,7 @@
       ],
       "settings": {
         "foreground": "#6B7280",
-        "fontStyle": ""
+        "fontStyle": "bold"
       }
     },
     {

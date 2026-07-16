@@ -404,7 +404,7 @@ const LightTheme: VscodeTheme = {
 		'list.warningForeground': '#D97706',
 
 		//EditorGroup
-		'editorGroup.border': colors.transparent,
+		'editorGroup.border': colors.border.sec,
 		'editorGroup.dropBackground': colors.dropBackground,
 		'editorGroupHeader.tabsBorder': colors.border.sec,
 
@@ -424,6 +424,7 @@ const LightTheme: VscodeTheme = {
 		'notifications.foreground': '#4B5563',
 		'notificationToast.border': '#D8DEE9',
 		'notificationLink.foreground': '#2563EB',
+		'notifications.border': colors.border.pry,
 
 		// Button
 		'button.hoverBackground': colors.button.hover,
@@ -802,7 +803,7 @@ const LightTheme: VscodeTheme = {
 			scope: ['entity.other.attribute-name', 'entity.other.attribute-name.id', 'entity.other.attribute-name.class', 'keyword.attribute.pug'],
 			settings: {
 				foreground: '#0891B2',
-				fontStyle: '',
+				fontStyle: 'italic',
 			},
 		},
 		{
@@ -868,7 +869,7 @@ const LightTheme: VscodeTheme = {
 			scope: ['entity.name.function', 'support.function', 'support.function.builtin', 'support.function.construct', 'meta.function-call', 'meta.function'],
 			settings: {
 				foreground: '#2563EB',
-				fontStyle: '',
+				fontStyle: 'italic',
 			},
 		},
 		{
@@ -897,7 +898,7 @@ const LightTheme: VscodeTheme = {
 			scope: ['entity.name.type', 'entity.name.interface', 'entity.name.enum', 'support.type'],
 			settings: {
 				foreground: '#D97706',
-				fontStyle: '',
+				fontStyle: 'italic',
 			},
 		},
 		// KEYWORDS + CONTROL FLOW + STORAGE + MODULES
@@ -905,7 +906,7 @@ const LightTheme: VscodeTheme = {
 			scope: ['keyword.operator', 'keyword.operator.assignment', 'keyword.operator.logical', 'keyword.operator.comparison'],
 			settings: {
 				foreground: '#0891B2',
-				fontStyle: 'bold',
+				fontStyle: 'italic',
 			},
 		},
 		{
@@ -920,7 +921,7 @@ const LightTheme: VscodeTheme = {
 			scope: ['variable.language', 'variable.language.this', 'variable.language.super', 'variable.language.self', 'variable.language.special', 'constant.language', 'constant.language.boolean', 'constant.language.null', 'constant.language.undefined'],
 			settings: {
 				foreground: '#EA580C',
-				fontStyle: '',
+				fontStyle: 'italic',
 			},
 		},
 		// LITERALS: STRINGS
@@ -943,7 +944,7 @@ const LightTheme: VscodeTheme = {
 			scope: ['constant.numeric', 'constant.character'],
 			settings: {
 				foreground: '#EA580C',
-				fontStyle: '',
+				fontStyle: 'bold',
 			},
 		},
 		{
@@ -987,7 +988,7 @@ const LightTheme: VscodeTheme = {
 			scope: ['punctuation.definition.parameters.begin', 'punctuation.definition.parameters.end', 'punctuation.section.brackets', 'punctuation.section.brackets.begin', 'punctuation.section.brackets.end', 'meta.brace', 'meta.bracket', 'meta.paren'],
 			settings: {
 				foreground: '#6B7280',
-				fontStyle: 'bold',
+				fontStyle: 'italic',
 			},
 		},
 		{
@@ -1001,7 +1002,7 @@ const LightTheme: VscodeTheme = {
 			scope: ['punctuation.separator.comma', 'punctuation.separator.key-value', 'punctuation.separator.parameter'],
 			settings: {
 				foreground: '#6B7280',
-				fontStyle: '',
+				fontStyle: 'bold',
 			},
 		},
 		{
